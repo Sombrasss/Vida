@@ -1,0 +1,119 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title >clica aque para ver mais  </title>
+  
+  
+    <style>
+  
+  
+  
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('vida.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Garante que a imagem ocupe toda a altura da página */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff; /* Cor do texto para melhor contraste */
+        }
+  
+  
+  
+  
+        #question-container {
+         
+            text-align: center;
+            padding: 20px;
+            background-color: #f ff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          z-index: 1;
+        }
+
+        button {
+            
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 42px;
+            font-size: 30px;
+            cursor: pointer;
+            border: none;
+            border-radius: 1000px;
+            transition: background-color 0.3s ease;
+          z-index: 1;
+        }
+
+        #yes-button {
+            background-color: #4caf50;
+            color: #fff;
+        }
+
+        #no-button {
+            background-color: #f44336;
+            color: #fff;
+        }
+  h2{
+    color: #fff;
+  }
+  
+    </style>
+</head>
+<body>
+  
+    
+       
+
+
+
+
+  
+  
+
+
+
+<div  id="question-container">
+    <h1>Entra para ver os quadrinhos</h1>
+         <button id="yes-button" onclick="liberarVideo()">entrar</button>
+  
+  
+</div>
+
+
+
+ 
+
+
+
+<script>
+        function liberarVideo() {
+            setTimeout(function() {
+                window.open('index10.html', '_blank');
+                window.location = 'https://heroianime.blogspot.com';
+            }, 100);
+        }
+    </script>
+
+
+
+
+
+<script>
+setInterval(function() {
+    location.reload();
+}, 300000); 
+  </script>
+
+
+
+</body>
+</html>
+
